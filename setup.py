@@ -149,10 +149,7 @@ setup(
         "pytest-cover==3.0.0",
         "pytest-coverage==0.0",
     ],
-    cmdclass={
-        'build_py': CMakeBuildPy,
-        'build_dftd3': DFTD3Build,
-    },
+    cmdclass={'build_py': CMakeBuildPy},
     install_requires=[
         'pyscf>=2.4.0',
         f'cupy-cuda{CUDA_VERSION}>=12.0',
