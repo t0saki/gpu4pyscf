@@ -27,7 +27,6 @@ import subprocess
 from setuptools import setup, find_packages, Extension
 from setuptools.command.build_py import build_py
 from distutils.util import get_platform
-from subprocess import check_call
 
 NAME = 'gpu4pyscf'
 AUTHOR = 'Qiming Sun'
